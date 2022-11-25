@@ -285,7 +285,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"ValveIn-Tank1"}
+      Value: {"LocaleId":"en-US","Text":"ValveOut-Tank1"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
