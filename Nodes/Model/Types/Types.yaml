@@ -1,0 +1,23 @@
+Name: Types
+Type: FolderType
+Children:
+- Name: TankType
+  Id: g=591d6d2589ca3a0ae88ddeef6ba1c98e
+  Supertype: BaseObjectType
+  Children:
+  - Name: ValveInStatus
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: ValveOutStatus
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: SetPoint
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Level
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0

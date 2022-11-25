@@ -1,0 +1,84 @@
+Name: Tanks
+Id: g=7cd47296a474c08d7b4cb1f102fc1ca9
+Type: FolderType
+Children:
+- Name: Tank1
+  Type: TankType
+  Children:
+  - Name: ValveInStatus
+    Id: g=aba793968c86002538460e3139a742b3
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: ValveOutStatus
+    Id: g=a53c152b4b7bbf59379c0b10ae51be74
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: SetPoint
+    Id: g=e187925e5ed153974d768b345518fba2
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 10
+  - Name: Level
+    Id: g=df33e87f2c5f695df9154a21f29d9977
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1
+- Name: Tank2
+  Type: TankType
+  Children:
+  - Name: ValveInStatus
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: ValveOutStatus
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: SetPoint
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 20
+  - Name: Level
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 2
+- Name: Tank3
+  Type: TankType
+  Children:
+  - Name: ValveInStatus
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: ValveOutStatus
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: SetPoint
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 30
+  - Name: Level
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 3
+- Name: Tank4
+  Type: TankType
+  Children:
+  - Name: ValveInStatus
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: ValveOutStatus
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: SetPoint
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 40
+  - Name: Level
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 4

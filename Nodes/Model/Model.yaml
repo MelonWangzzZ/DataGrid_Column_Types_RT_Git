@@ -1,0 +1,10 @@
+Name: Model
+Type: FolderType
+Children:
+- Name: EditOptionBool
+  Id: g=1c1821b57fc339211530d5f833d2c973
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: true
+- File: Types/Types.yaml
+- File: Instances/Instances.yaml
